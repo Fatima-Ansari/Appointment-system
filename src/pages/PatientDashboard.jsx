@@ -26,7 +26,7 @@ function PatientDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold text-center text-blue-700 mb-8">
+      <h1 className="text-3xl font-bold text-center green-blue-700 mb-8">
         Patient Dashboard
       </h1>
 
@@ -42,7 +42,7 @@ function PatientDashboard() {
             </p>
 
             <button
-              className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-200"
+              className="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition duration-200"
               onClick={() => handleAppointment(patient.id)}
             >
               Book Appointment

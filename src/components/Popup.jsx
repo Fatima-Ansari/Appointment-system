@@ -53,7 +53,7 @@ const Popup = ({ title, onClose, isLogin }) => {
             required
           />
           {error && <p className="text-red-500 mb-2">{error}</p>}
-          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md">
+          <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded-md">
             {isLogin ? 'Login' : 'Sign Up'}
           </button>
         </form>
